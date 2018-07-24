@@ -13,10 +13,6 @@ library(WindR)
 w.start(showmenu = F)
 conwind <- dbConnect(MySQL(), host='rm-2zey1z6px42nits51.mysql.rds.aliyuncs.com',
                      port=3306,dbname="wind", username="hulitingali", password="Hu.lt@2018")
-# contianxiang <- dbConnect(MySQL(), host='172.17.189.37',
-#                          port=3306,dbname="txnfdb", username="huliting", password="Hu.lt@2018")
-# confinchina <- dbConnect(MySQL(), host='47.95.9.10',
-#                         port=3306,dbname="finchina", username="fanzhuo", password="Fan.z@2018")
 
 # benchmark --------------------
 # stkfund & bondfond index
